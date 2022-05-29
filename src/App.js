@@ -27,6 +27,7 @@ const App = () => {
   const incrementAsync = (amount) => (dispatch) => {
     setTimeout(() => dispatch(increment(amount)), 1000);
   };
+  
   return (
     <div>
       <div>Cash: {cash}</div>

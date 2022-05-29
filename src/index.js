@@ -1,6 +1,5 @@
 import React, { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
-
 import { AppWrapper } from './App';
 
 const rootElement = document.getElementById('root');
